@@ -1,0 +1,22 @@
+@media screen and (max-width: 800px) {
+
+    .sport_container {
+        display: flex;
+        padding: .5rem;
+        gap: 10px;
+} 
+
+.sport_title {
+    font-size: .7rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.sport_img {
+    width: 80rem;
+}
+
+.sport_discrib {
+    font-size: .5rem;
+}
+}
