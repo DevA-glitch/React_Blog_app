@@ -41,7 +41,7 @@ const Navbar = () => {
                     <Link to='/fasion' class="text-gray-900 dark:text-white hover:underline" aria-current="page">Fasion page</Link>
                 </li>
                 <li>
-                    <Link to='/bussiness' class="text-gray-900 dark:text-white hover:underline" aria-current="page">Bussines page</Link>
+                    <Link to='/bussiness' class="text-gray-900 dark:text-white hover:underline" aria-current="page">Buy Poster</Link>
                 </li>
             </ul>
         </div>

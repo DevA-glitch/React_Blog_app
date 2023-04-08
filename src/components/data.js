@@ -83,3 +83,65 @@ export const fasiondata = [
     },
 ]
 
+
+export const posterData = [
+    {
+        Id: 1,
+        Image: "https://img.freepik.com/premium-vector/t20-cricket-match-participating-countries-players-against-blue-acrylic-marble-background_1302-37102.jpg?w=1060", 
+        Data: '$12.10',
+        Title: 'Cricket',
+    },
+    {
+        Id: 1,
+        Image: "https://img.freepik.com/free-vector/basketball-player-uniform-with-ball-hand-isolated-white_1284-41464.jpg?size=626&ext=jpg&ga=GA1.2.12400137.1680959309&semt=sph", 
+        Data: '$12.10',
+        Title: 'Cricket',
+    },
+    {
+        Id: 1,
+        Image: "https://img.freepik.com/free-vector/colored-vintage-basketball-logotype-template_1284-39319.jpg?w=1060&t=st=1680960389~exp=1680960989~hmac=b9933f887dae299337670807c77ab3250a97983f528c0ec834f25cd545d5111b", 
+        Data: '$12.10',
+        Title: 'Cricket',
+    },
+
+    {
+        Id: 1,
+        Image: "https://img.freepik.com/premium-psd/fashion-sale-instagram-facebook-story-banner-template_511662-339.jpg?w=826", 
+        Data: '$12.10',
+        Title: 'Cricket',
+    },
+
+    {
+        Id: 1,
+        Image: "https://img.freepik.com/free-photo/fashion-little-boy_71767-95.jpg?size=626&ext=jpg&ga=GA1.1.12400137.1680959309&semt=sph", 
+        Data: '$12.10',
+        Title: 'Cricket',
+    },
+
+    {
+        Id: 1,
+        Image: "https://img.freepik.com/premium-photo/samurai-staring-sun-anime-digital-art_717588-6.jpg?w=1060", 
+        Data: '$12.10',
+        Title: 'Cricket',
+    },
+
+    {
+        Id: 1,
+        Image: "https://img.freepik.com/free-psd/hand-drawn-traveling-concept-square-flyer_23-2149854156.jpg?1&w=1060&t=st=1680965840~exp=1680966440~hmac=220dd9035904db98e627a745729234b7b4180959f38ab220ec6c42bb7787d1d9", 
+        Data: '$12.10',
+        Title: 'Cricket',
+    },
+    {
+        Id: 1,
+        Image: "https://img.freepik.com/free-vector/hand-drawn-travel-twitch-banner-template_23-2149190554.jpg?w=1800&t=st=1680966034~exp=1680966634~hmac=3ca88d58367c8c35d7911da28839c11de5a32eb746a60520875f33a3828f7625", 
+        Data: '$12.10',
+        Title: 'Cricket',
+    },
+
+    {
+        Id: 1,
+        Image: "https://img.freepik.com/free-psd/architecture-project-poster-template_23-2150306367.jpg?w=1060&t=st=1680966212~exp=1680966812~hmac=56db2860b8853e24d91c19416644642693b1c4949e7076bdda0d6b2bb10540d4 ", 
+        Data: '$12.10',
+        Title: 'Cricket',
+    },
+]
