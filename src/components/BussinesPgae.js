@@ -9,7 +9,7 @@ const BussinesPgae = ({busnis}) => {
         </div>
 
         <div>
-            <p>Cuztamizable</p>
+            <p>Cuztamizable page</p>
         <h1 className='fasion_title'>{busnis.Title}</h1>
         <button className=' bg-red-400 px-6 text-sm py-1 text-white hover:bg-fuchsia-500 duration-150'>Buy</button>
         </div>
