@@ -10,7 +10,7 @@ const Bussines = () => {
       <h1 className='text-4xl mb-5 bg-slate-200 p-2'>BUY POSTER</h1>
         <p className='text-3xl bg-blue-500 p-1'>Limited sales only</p>
       </div>
-       <div className=' gap-14  grid grid-cols-5 px-6 py-10'>
+       <div className=' gap-14  grid grid-cols-5 max-md:grid-cols-2 px-6 py-10'>
        
       {posterData.map((busnis) => {
         return (

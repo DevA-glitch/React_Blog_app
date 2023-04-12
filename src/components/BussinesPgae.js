@@ -4,7 +4,7 @@ const BussinesPgae = ({busnis}) => {
   return (
     <div className=' py-1 px-1  hover:shadow-lg hover:border duration-200'>
         <div >
-        <img className='fasion_img w-[13rem]  h-[15rem] border-[1px] cursor-pointer hover:scale-110 duration-300 border-black' src={busnis.Image} />
+        <img className='fasion_img w-[14rem] max-md:w-[10rem] max-md:h-[7rem]  h-[15rem] border-[1px] cursor-pointer hover:scale-110 duration-300 border-black' src={busnis.Image} />
         <p className='fasion_date mt-7'>{busnis.Data}</p>
         </div>
 
