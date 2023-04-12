@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
 
     <div className='sticky top-0 z-50'>
@@ -21,8 +21,12 @@ const Navbar = () => {
         <Link to='/' class="flex items-center">
         <h1 className='text-3xl text-white'>Artical.com</h1>
         </Link>
-        <div class="flex items-center">
-            <a href="#" class="text-sm font-medium text-blue-600 dark:text-blue-500 hover:underline">Login</a>
+        <div class="flex items-center gap-5">
+            <Link to='/login'>Login</Link>
+            <Link to='/signup'>Register</Link>
+            <div>
+          <h2>{props.name ? `Welcome - ${props.name}` : 'welcome'}</h2>
+        </div>
         </div>
     </div>
     </nav>

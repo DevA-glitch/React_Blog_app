@@ -1,8 +1,12 @@
-import React, { useState, children } from 'react'
+import React, { useState, useEffect, children } from 'react'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'  
 import './index.css'
 import './App.css'
+
+
+
+import { auth } from "./firebase";
 
 import {
   createBrowserRouter,
@@ -15,6 +19,8 @@ import Home from './pages/Home'
 import Sports from './pages/Sports'
 import Fasion from './pages/Fasion'
 import Bussiness from './pages/Bussines'
+import Login from './components-1/Login/Login'
+import Signup from './components-1/Signup/Signup'
 
 const Layout = () => {
   return (
@@ -28,10 +34,12 @@ const Layout = () => {
 }
 
 const router = createBrowserRouter ([
+  
   {
     path: '/',
     element: <Layout />,
     children: [
+      
         {
           path: '/',
           element: <Home />,
@@ -48,11 +56,30 @@ const router = createBrowserRouter ([
           path: '/bussiness',
           element: <Bussiness />,
         },
+        {
+          path: '/login',
+          element: <Login />
+        },
+        {
+          path: '/signup',
+          element:<Signup />,
+        },
+
     ],
   },
 ]);
 
 const App = () => {
+
+  const [userName, setUserName] = useState("");
+
+  useEffect(() => {
+    auth.onAuthStateChanged((user) => {
+      if (user) {
+        setUserName(user.displayName);
+      } else setUserName("");
+    });
+  }, []);
 
   return (
     <div>
